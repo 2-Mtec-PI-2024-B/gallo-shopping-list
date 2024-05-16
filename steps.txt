@@ -3,8 +3,12 @@ git config --global user.email gallojunior@gmail.com
 
 npx create-expo-app galloShoppingList
 
+npx expo install react-dom react-native-web @expo/metro-runtime
+
 
 cd galloShoppingList
+
+npm i
 
 
 Instalar o Router
@@ -12,7 +16,7 @@ npx expo install expo-router react-native-safe-area-context react-native-screens
 
 
 npx expo start --localhost --android
-
+npx expo start 
 
 Configurar o Router:
     Abrir o package.json e alterar a chave main
